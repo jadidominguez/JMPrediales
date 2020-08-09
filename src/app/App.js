@@ -15,6 +15,7 @@ import AppContext from './AppContext';
 import { Auth } from './auth';
 import routes from './fuse-configs/routesConfig';
 import store from './store';
+import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
 
 const jss = create({
 	...jssPreset(),
@@ -39,6 +40,10 @@ const App = () => {
 								<FuseAuthorization>
 									<FuseTheme>
 										<FuseLayout />
+									 <div>
+									    <AmplifySignOut />
+									    My App
+									</div>
 									</FuseTheme>
 								</FuseAuthorization>
 							</Router>
