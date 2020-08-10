@@ -1,0 +1,27 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-jmprediales-dev-135621-authRole",
+            "UnauthRoleArn": "arn:aws:iam::586528806308:role/amplify-jmprediales-dev-135621-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::586528806308:role/amplify-jmprediales-dev-135621-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-jmprediales-dev-135621-deployment",
+            "UnauthRoleName": "amplify-jmprediales-dev-135621-unauthRole",
+            "StackName": "amplify-jmprediales-dev-135621",
+            "StackId": "arn:aws:cloudformation:us-east-1:586528806308:stack/amplify-jmprediales-dev-135621/318effb0-db3b-11ea-a298-0a60596032c9",
+            "AmplifyAppId": "d1ihem18cvl46y"
+        },
+        "categories": {
+            "function": {
+                "jmprediales43d6bf84DefineAuthChallenge": {},
+                "jmprediales43d6bf84CreateAuthChallenge": {},
+                "jmprediales43d6bf84VerifyAuthChallengeResponse": {
+                    "RECAPTCHASECRET": ""
+                }
+            },
+            "auth": {
+                "jmprediales43d6bf84": {}
+            }
+        }
+    }
+}
