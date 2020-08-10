@@ -1,0 +1,15 @@
+{
+  "trigger": true,
+  "modules": [
+    "captcha-define-challenge"
+  ],
+  "parentResource": "jmprediales43d6bf84",
+  "functionName": "jmprediales43d6bf84DefineAuthChallenge",
+  "resourceName": "jmprediales43d6bf84DefineAuthChallenge",
+  "parentStack": "auth",
+  "triggerEnvs": [],
+  "triggerDir": "C:\\laragon\\bin\\nodejs\\node-v12\\node_modules\\@aws-amplify\\cli\\node_modules\\amplify-category-auth\\provider-utils\\awscloudformation\\utils/../triggers/DefineAuthChallenge",
+  "triggerTemplate": "DefineAuthChallenge.json.ejs",
+  "roleName": "jmprediales43d6bf84DefineAuthChallenge",
+  "skipEdit": true
+}
